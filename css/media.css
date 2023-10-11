@@ -1,0 +1,316 @@
+@media screen and (min-width: 320px) {
+  .container {
+    max-width: 320px;
+  }
+}
+
+@media screen and (min-width: 320px) and (min-resolution: 192dpi) {
+  .effective-section {
+    background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.70),
+      rgba(46, 47, 66, 0.70)
+      ),
+      url(../images-2/lbt/Dark-bg-mob@2x.jpg);  
+  }
+  
+}
+
+
+
+/* pl- adapt-*/
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  .effective-section {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images-2/lbt/Dark-bg-pl@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    max-width: 768px;
+    padding: 0 16px;
+  }
+ .header {
+    min-width: 768px;
+  }
+
+  .logo {
+    margin-right: 120px;
+  }
+  .nav-list {
+    display: flex;
+  }
+  /*.nav-list {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+  }*/
+  .nav-list-item {
+    display: flex;
+  }
+
+  .address-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .address-info {
+ 
+  }
+  .address-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 16px 0;
+    margin-left: 121px;
+  }
+
+  .a-link {
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.04em;
+
+  }
+  .button-contacts {
+    display: none;
+  }
+  /* section effective*/
+  .effective-section {
+    padding: 112px 136px;
+    width: 768px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images-2/lbt/Dark-bg-pl.jpg);
+  }
+  .effect-title {
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 1.07;
+  }
+
+  .button-primary {
+  }
+  .section-class {
+    column-gap: 24px;
+  }
+
+  .title {
+    text-align: left;
+  }
+
+  .section-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  /*light-bt*/
+  .card-list {
+    column-gap: 64px;
+    gap: 24px;
+  }
+
+  /* portfolio*/
+  .portf-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  /*.photo-img {
+    height: 300px;
+    width: 356px;
+  }*/
+/*footer section*/
+  .footer-section {
+    width: 768px;
+  }
+
+  .f-flex {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+    justify-content: left;
+    align-items: baseline;
+    padding-left: 108px;
+  }
+
+  .position-info {
+    align-items: stretch;
+  }
+.footer-input {
+  align-items: stretch;
+ }
+  .email-input {
+    flex-direction: row;
+  }
+
+  .modal {
+    width: 408px;
+    padding: 72px 25px 24px 23px;
+  }
+}
+/* descktop */
+@media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
+  .effective-section {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-1@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container { 
+    width: 1158px;
+   min-width: 1158px;
+   padding-left: 15px;
+   padding-right: 15px;
+  }
+}
+ @media screen  and (min-width: 1158px) {
+  .header {
+    max-width: 1440px;
+    
+    flex-direction: row;
+    border-bottom: 1px solid #e7e9fc;
+    justify-content: center;
+  }
+
+ .address-info {
+  padding: 0;
+ }  
+
+  .logo {
+    margin-right: 76px;
+  }
+  .nav-list {  
+    display: flex;
+    flex-grow: 1;
+  }
+  .nav-list-item {
+   
+  }
+  .address-list {
+    display:inline-block;
+   font-style: normal;
+   }
+
+   .a-link {
+    font-size: 16px;;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+   }
+  .address-container {
+    gap: 40px;
+    display: flex;
+    flex-direction: row; 
+  }
+
+  .button-contacts {
+    display: none;
+  }
+
+  /* section effective*/
+
+  .effective-section {
+    background: #2E2F42;
+    display: flex;
+    padding: 188px 0;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office.jpg);
+      
+      max-width: 1440px;
+      width: 100%;
+      
+  }
+  .effect-title { 
+    font-weight: 500;
+    font-size: 56px;
+ }
+
+  .our {
+    padding: 120px 0;
+  }
+
+  .section-class {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+
+  .icon-section {
+    display: flex;
+  }
+
+  .title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+
+  .section-item {
+    width: calc((100% - 48px) / 3);
+  }
+  .text {
+    font-weight: 400;
+  }
+
+  .light-bt {
+    padding: 120px 0;
+    max-width: 1440px;
+  }
+  .card-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+
+  .info {
+    padding: 120px 0;
+  }
+
+  .portf-item {
+    width: calc((100% - 48px) / 3);
+  }
+
+  /*.photo-img {
+    width: 360px;
+    height: 300px;
+  }*/
+
+  .footer-section {
+   padding: 100px 0;
+   width: 100%;
+   max-width: 1440px;
+   margin: auto;
+    
+  }
+
+  .f-flex {
+    align-items: baseline;
+    flex-wrap: nowrap;
+    gap: 0;
+    
+  }
+  .position-info {
+    margin-right: 120px;
+  }
+
+  .social {
+    margin-right: 80px;
+  }
+  .social-media {
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     }
+}
