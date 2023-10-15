@@ -135,7 +135,8 @@
   }
 
   .hero-inner {
-    padding: 64px 155px 0 32px;
+    /*width: 704px;*/
+    padding: 64px 32px 0 32px;
   }
   .hero-title {
     max-width: 517px;
@@ -195,14 +196,13 @@
   .users-item {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     column-gap: 8px;
   }
 
   .hero-img {
     width: 393px;
-    margin-left: 156px;
-    margin-right: 155px;
+    margin: 0 auto;
   }
  
 }
@@ -210,10 +210,13 @@
   .hero-section {
     margin: 0 auto;
       padding: 80px 100px 150px 100px;
-      max-width: 1080px; /* було max-width*/
+   max-width: 100%;
+
   }
   .hero-inner {
+    display: flex;
    padding: 80px 50px 0 50px; 
+   width: 100%;
   }
   .hero-title {
     max-width: 563px;
@@ -232,15 +235,13 @@
     cursor: pointer;
   }
   
-  .icon-star:hover,
-  .icon-star:focus {
-    fill:#fff;
- transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+  
   .hero-img {
-    max-width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items:flex-end;
     width: 397px;
-    height: 100%;
-    margin: 0 auto;
+    height: initial;
+    
   }
 }
