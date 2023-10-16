@@ -3,6 +3,7 @@
   margin: 0 auto;
     padding: 0px 20px 80px;
     min-width: 375px; /* було max-width*/
+    background-image: url(../images/Graphic/_desc-Graphic.png);
 }
 .hero-inner {
   border-radius: 30px;
@@ -132,6 +133,7 @@
   .hero-section {
     padding: 0 32px 100px;
     max-width: 768px;
+    background-image: url(../images/Graphic/_tab-Graphic.png);
   }
 
   .hero-inner {
@@ -211,6 +213,7 @@
     margin: 0 auto;
       padding: 80px 100px 150px 100px;
    max-width: 100%;
+   background-image: url(../images/Graphic/_mob-Graphic.png);
 
   }
   .hero-inner {
